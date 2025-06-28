@@ -17,7 +17,7 @@ export const About: React.FC = () => {
       >
         <h2>About Me</h2>
         <p>
-          I'm a passionate full-stack developer with 2.5+ years of experience in building scalable applications and clean developer-friendly APIs.
+          I&apos;m a passionate full-stack developer with 2.5+ years of experience in building scalable applications and clean developer-friendly APIs.
           I specialize in React, Node.js, TypeScript, and API development — with strong focus on performance and best practices.
         </p>
 

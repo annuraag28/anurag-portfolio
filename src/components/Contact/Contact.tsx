@@ -17,7 +17,7 @@ export const Contact: React.FC = () => {
         variants={fadeIn}
       >
         <h2>Contact</h2>
-        <p>Want to collaborate or have an opportunity? Let's connect!</p>
+        <p>Want to collaborate or have an opportunity? Let&apos;s connect!</p>
 
         <a href={SOCIAL_LINKS.email} className={styles.email}>
           {SOCIAL_LINKS.email.replace('mailto:', '')}
