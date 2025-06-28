@@ -1,0 +1,80 @@
+@import "@/styles/variables.scss";
+
+.projects {
+  padding: 5rem 2rem;
+  background-color: $bg-color;
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 2rem;
+      color: $primary-color;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      text-align: left;
+
+      h3 {
+        color: $primary-color;
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        padding: 0;
+        list-style: none;
+        margin-bottom: 1rem;
+
+        li {
+          background-color: $primary-color;
+          color: white;
+          padding: 0.3rem 0.75rem;
+          border-radius: 20px;
+          font-size: 0.8rem;
+        }
+      }
+
+      .links {
+        display: flex;
+        gap: 1rem;
+
+        a {
+          text-decoration: none;
+          font-weight: 600;
+          border: 2px solid $primary-color;
+          color: $primary-color;
+          padding: 0.4rem 0.9rem;
+          border-radius: 6px;
+          transition: all 0.3s ease;
+
+          &:hover {
+            background: $primary-color;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
