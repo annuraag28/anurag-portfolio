@@ -26,7 +26,7 @@ export const About: React.FC = () => {
           <ul>
             {[
               'React', 'Next.js', 'TypeScript', 'Node.js', 'Express',
-              'MongoDB', 'MySQL', 'Redux', 'Postman', 'JIRA',
+              'MongoDB', 'MySQL', 'Redux', 'Postman', 'JIRA', 'Chai', 'Mocha',
             ].map((skill, index) => (
               <li key={index}>{skill}</li>
             ))}

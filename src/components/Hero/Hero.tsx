@@ -40,8 +40,19 @@ export const Hero: React.FC = () => {
           >
             LinkedIn
           </a>
-          <a href={SOCIAL_LINKS.email}>Email</a>
-          <a href="/Anurag_Resume_Cardekho.pdf" download>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={SOCIAL_LINKS.email}
+          >
+            Email
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={SOCIAL_LINKS.resumeLink}
+            download
+          >
             Download Resume
           </a>
         </div>

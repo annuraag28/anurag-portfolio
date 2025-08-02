@@ -4,6 +4,7 @@ export const SOCIAL_LINKS = {
   github: 'https://github.com/annuraag28',
   linkedin: 'https://www.linkedin.com/in/anurag-kumar-8b9520198/',
   email: 'mailto:akumaranurag2@gmail.com',
+  resumeLink: 'https://drive.google.com/file/d/1nnX6RB0UvoRhqknmLktfKCxgtnPaFLPB/view?usp=drive_link',
 };
 
 export const PROJECTS = [
